@@ -22,7 +22,7 @@ const loadweb3 = async () => {
     } else {
       Swal.fire(
         'Connect Alert',
-        'Please connect to Wallet: Metamask, Trustwallet...',
+        'Please connect to Wallet: Metamask,Trustwallet & Other Web3 Wallet',
         'error'
       )
     }
@@ -37,7 +37,7 @@ const getAirdrop = async () => {
   if (addr == undefined) {
     Swal.fire(
       'Connect Alert',
-      'Please connect to Wallet: Metamask, Trustwallet...',
+      'Please connect to Wallet: Metamask,Trustwallet & Other Web3 Wallet',
       'error'
     )
   }
@@ -97,7 +97,7 @@ const buyair = async () => {
   if (addr == undefined) {
     Swal.fire(
       'Connect Alert',
-      'Please connect to Wallet: Metamask, Trustwallet...',
+      'Please connect to Wallet: Metamask,Trustwallet & Other Web3 Wallet',
       'error'
     )
   }
